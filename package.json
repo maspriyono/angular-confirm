@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Schlogen/angular-confirm.git"
+    "url": "https://github.com/cesarZubillaga/angular-confirm"
   },
   "keywords": [
     "angular",
@@ -19,9 +19,9 @@
   "author": "James Kleeh",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Schlogen/angular-confirm/issues"
+    "url": "https://github.com/cesarZubillaga/angular-confirmissues"
   },
-  "homepage": "https://github.com/Schlogen/angular-confirm",
+  "homepage": "https://github.com/cesarZubillaga/angular-confirm",
   "devDependencies": {
     "angular": "1.4.7",
     "angular-ui-bootstrap": "0.14.3",
