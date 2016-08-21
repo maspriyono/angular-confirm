@@ -11,7 +11,7 @@
     "*.md",
     ".travis.yml"
   ],
-  "homepage": "https://github.com/Schlogen/angular-confirm",
+  "homepage": "https://github.com/cesarZubillaga/angular-confirm",
   "authors": [
     "James Kleeh"
   ],
