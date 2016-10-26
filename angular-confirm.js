@@ -31,12 +31,7 @@ angular.module('angular-confirm', ['ui.bootstrap.modal'])
 
   }])
   .value('$confirmModalDefaults', {
-    template: '<div class="modal-header"><h3 class="modal-title">{[{data.title}]}</h3></div>' +
-    '<div class="modal-body">{[{data.text}]}</div>' +
-    '<div class="modal-footer">' +
-    '<button class="btn btn-primary" ng-click="ok()">{[{data.ok}]}</button>' +
-    '<button class="btn btn-default" ng-click="cancel()">{[{data.cancel}]}</button>' +
-    '</div>',
+    templateUrl: 'template/basic-modal',
     controller: 'ConfirmModalController',
     defaultLabels: {
       title: 'Confirm',
@@ -48,7 +43,7 @@ angular.module('angular-confirm', ['ui.bootstrap.modal'])
     return function (data, settings) {
       var defaults = angular.copy($confirmModalDefaults);
       settings = angular.extend(defaults, (settings || {}));
-      
+
       data = angular.extend({}, settings.defaultLabels, data || {});
 
       if ('templateUrl' in settings && 'template' in settings) {
